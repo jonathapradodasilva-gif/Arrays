@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(74, 86, 52);
+}
+
+#formulario{
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin: 15px 0px;
+    color: white;
+    font-size: 28pt;
+}
+
+div{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.txt{
+    font-size: 20pt;
+}
+
+.sexo{
+    font-size: 16pt;
+}
+
+
+/*====================SECTION TABELA========================*/
+
+#tabela{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+table{
+    margin: 15px auto;
+    text-align: center;
+    background-color: burlywood;
+    font-size: 18pt;
+    width: 45vw;
+}
+
+tbody > tr{
+    background-color: aquamarine;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Campeonato</title>
+</head>
+<body>
+    <h1>CAMPEONATO</h1>
+
+    <section id="formulario">
+        <form id="form">
+            <label for="nome">Nome: <input type="text" id="nome"></label>
+            <label for="equipe">Equipe: <input type="text" id="equipe"></label>
+            <label for="estado">Estado: <input type="text" id="estado"></label>
+            <label for="nasc">Data Nasc: <input type="date" id="nasc"></label>
+
+            <label for="icategoria">Categoria: 
+                <select name="categoria" id="icategoria">
+                    <option value="selecione">Selecione</option>
+                    <option value="até 18">Até 18</option>
+                    <option value="18 até 23">18 até 23</option>
+                    <option value="23 até 28">23 até 28</option>
+                    <option value="28 até 33">28 até 33</option>
+                    <option value="33 até 38">33 até 38</option>
+                    <option value="38 até 43">38 até 43</option>
+                    <option value="43+">43+</option>
+                </select>
+            </label>
+            <input type="button" value="ADICIONAR" onclick="adicionar()">
+        </form>
+
+        <div id="msg">
+
+        </div>
+
+    </section>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <td>NOME</td>
+                    <td>EQUIPE</td>
+                    <td>ESTADO</td>
+                    <td>NASCIMENTO</td>
+                    <td>CATEGORIA</td>
+                </tr>
+            </thead>
+            <tbody id="ibody">
+                
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
